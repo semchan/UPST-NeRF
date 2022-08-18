@@ -70,7 +70,7 @@ To only evaluate the trained `fern`, run:
 ```bash
 $ python run_style.py --config configs/llff/lego.py --style_img ./ref_images/styleimgs/your_image_name.jpg --render_style --render_only --render_test --render_video
 ```
-Use `--eval_lpips_alex` to evaluate LPIPS with pre-trained Alex net instead of VGG net.
+
 
 
 
