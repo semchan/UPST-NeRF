@@ -4,8 +4,9 @@ UPST-NeRF(see [our paper](https://arxiv.org/abs/2208.07059) and [project page](h
 
 <div align=center><img height="400" src="./imgs/teaser.png"/></div>
 
+### Qualitative comparisons
 <div align=center><img height="400" src="./imgs/llff_dataset_upst-nerf.gif"/></div>
-
+<div align=center><img height="400" src="./imgs/nerf_dataset_upst-nerf.gif"/></div>
 
 ### Installation
 ```
