@@ -65,20 +65,22 @@ We use the LLFF dataset organized by NeRF. Download link: [nerf_llff_data](https
 ### Train
 To train `fern` scene and evaluate testset `PSNR` at the end of training, run:
 ```bash
-$ python run_upst.py  --config configs/llff/fern.py  --style_img ./ref_images/styleimgs/your_image_name.jpg
+$ python run_upst.py  --config configs/llff/fern.py  --style_img ./style_images/your_image_name.jpg
 ```
 
 
 ### Evaluation
 To only evaluate the trained `fern`, run:
 ```bash
-$ python run_upst.py --config configs/llff/fern.py --style_img ./ref_images/styleimgs/your_image_name.jpg --render_style --render_only --render_test --render_video
+$ python run_upst.py --config configs/llff/fern.py --style_img ./style_images/your_image_name.jpg --render_style --render_only --render_test --render_video
 ```
 
 We also share some checkpoints for the 3D senes on llff dataset in baidu disk. You can download and put it into "./logs" for evaluation.
 
 link：https://pan.baidu.com/s/1UxZqCiJIsL94jVonqadEFA 
 code：5xk3 
+
+
 
 
 
