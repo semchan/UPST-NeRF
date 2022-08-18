@@ -64,14 +64,14 @@ We use the LLFF dataset organized by NeRF. Download link: [nerf_llff_data](https
 ### Train
 To train `fern` scene and evaluate testset `PSNR` at the end of training, run:
 ```bash
-$ python run_style.py  --config configs/llff/fern.py  --style_img ./ref_images/styleimgs/your_image_name.jpg
+$ python run_upst.py  --config configs/llff/fern.py  --style_img ./ref_images/styleimgs/your_image_name.jpg
 ```
 
 
 ### Evaluation
 To only evaluate the trained `fern`, run:
 ```bash
-$ python run_style.py --config configs/llff/lego.py --style_img ./ref_images/styleimgs/your_image_name.jpg --render_style --render_only --render_test --render_video
+$ python run_upst.py --config configs/llff/lego.py --style_img ./ref_images/styleimgs/your_image_name.jpg --render_style --render_only --render_test --render_video
 ```
 
 
