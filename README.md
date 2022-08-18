@@ -4,6 +4,9 @@ UPST-NeRF(see [our paper](https://arxiv.org/abs/2208.07059) and [project page](h
 
 <div align=center><img height="400" src="./imgs/teaser.png"/></div>
 
+<div align=center><img height="400" src="./imgs/llff_dataset_upst-nerf.gif"/></div>
+
+
 ### Installation
 ```
 git clone https://github.com/semchan/UPST-NeRF.git
@@ -75,5 +78,5 @@ $ python run_style.py --config configs/llff/lego.py --style_img ./ref_images/sty
 
 
 ## Acknowledgement
-Thanks very much for the excellent work of DirectVoxGO, our code is based on a， Our code base is origined from an awesome [DirectVoxGO](https://github.com/sunset1995/DirectVoxGO) implementation.
+Thanks very much for the excellent work of DirectVoxGO, our code base is origined from an awesome [DirectVoxGO](https://github.com/sunset1995/DirectVoxGO) implementation.
 
