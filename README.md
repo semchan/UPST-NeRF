@@ -77,8 +77,8 @@ $ python run_upst.py --config configs/llff/fern.py --style_img ./style_images/yo
 
 We also share some checkpoints for the 3D senes on llff dataset in baidu disk. You can download and put it into "./logs" for evaluation.
 
-link：https://pan.baidu.com/s/1UxZqCiJIsL94jVonqadEFA 
-code：5xk3 
+link：https://pan.baidu.com/s/1UxZqCiJIsL94jVonqadEFA
+code：1234
 
 
 
