@@ -3,7 +3,7 @@
 UPST-NeRF(see [our paper](https://arxiv.org/abs/2208.07059) and [project page](https://semchan.github.io/UPST_NeRF/) )is capable of rendering photorealistic stylized novel views with a consistent appearance at various view angles in 3D space.
 
 <div align=center><img height="300" src="./imgs/teaser.png"/></div>
-<div align=center><img height="300" src="[./imgs/teaser.png](https://www.youtube.com/watch?v=BX1WAEtSbKU)"/></div>
+<div align=center><img height="300" src="https://www.youtube.com/watch?v=BX1WAEtSbKU"/></div>
 ### Qualitative comparisons
 <div align=center><img height="400" src="./imgs/llff_dataset_upst-nerf.gif"/></div>
 <div align=center><img height="400" src="./imgs/nerf_dataset_upst-nerf.gif"/></div>
